@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+
+}
+
+body{
+    background-color: #fff;
+}
+
+.bx{
+    box-shadow: 2px 2px 18px rgba(0,0,0,0.2);
+}
+
+.days{
+    height: 10vh;
+    width: 10vw;
+}
+
+.days:hover{
+    background: royalblue;
+    
+}
+
+
+.nav_style{
+    box-shadow: 0px 0px 6px 4px #1d7dd18c;
+    z-index: 10;
+    background: #1e67d9bf;
+    display: flex;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.calendar_container{
+    width: 100%;
+    padding: 0px;
+}
+
+#navbarNav{
+    justify-content: center;
+}
+
+.moveLeft{
+    width: 100px;
+}
+
+.moveRight{
+    width: 100px;
+}
+
+.table td.currentDate {
+    background: rgb(255, 0, 0);
+  }
+  
